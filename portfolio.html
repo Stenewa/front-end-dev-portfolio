@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!--ensures the  Website  adjusts with the device-->
+        <title>Stephanie Nelima Portfolio Website</title> 
+     <!--this ensures that the web page adjusts with the device uses-->   
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+     <!--evens out browser differrences-->
+     <link rel="stylesheet" href="https://kit.fontawesome.com/0bce15e73a.js" crossorigin="anonymous">
+     <script src="https://kit.fontawesome.com/0bce15e73a.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="toggle-nav" aria-label="toggle-navigation">
+                <span class="hamburger"></span>
+    
+
+            </button> 
+            <nav class="n_av">
+                <ul class="nav_list">
+                    <li class="nav_tem"><a href="#home" class="nav_link">HOME</a></li>
+                    <li class="nav_tem"><a href="#services" class="nav_link">SERVICES</a></li>
+                    <li class="nav_tem"><a href="#about" class="nav_link">ABOUT ME</a></li>
+                    <li class="nav_tem"><a href="#work"  class="nav_link">MY WORK</a></li>
+                    <li class="nav_tem"><a href="#contact" class="nav_link">CONTACT ME</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--intro section-->
+        <section class="bgimg1">
+             <section class="intro" id="intro">
+            <h1 class="section_title section__title--intro">
+                <!--class modifier-->
+                Hello, I am <strong>Stephanie Nelima</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Front End Developer</p>
+                <img src="photo1.jpg" alt="" class="intro_img">
+        </section>
+        </section>
+       
+        <!--my services section-->
+        <section class="my_services" id="services">
+
+            <h2><p class="section__title section__title--services">What I Do</p></h2>
+            <div class="myservices">
+                <div class="service">
+                    <p>
+                    <h3 class="section__subtitle section__subtitle--services">HTML, CSS and JavaScript</h3>
+                   
+                        Having worked with these languages for 5+ years, I am clearly adept and experienced in web creaton, user interface management and  web response management
+                    </p>
+                </div>
+                <div class="service">
+                    <p>
+                        <h3 class="section__subtitle section__subtitle--services">My SQL</h3>
+                    
+                        Aside from web development, form creation and data management as well as retrieval are all skillsets I posess that make it possible for websites to store and relay information
+                    </p>
+                </div>
+                <div class="service">
+                <p>
+                        <h3 class="section__subtitle section__subtitle--services">JAVA</h3>
+                    
+                        The versatility of java as a programming language is what attracted me to learn and master the different skills that one gains by learning this object oriented programming language.
+                    </p>
+                </div>
+
+            </div>
+            <button class="btn"><a href="#work" class="btn">My Work</a></button> 
+        </section> 
+        <!--About me-->
+        <section class="bgimg">
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am </h2>
+            <p class="section__title section__subtitle--about">A frontend developer based in Nairobi</p>
+            <div class="about-me__body">
+                <p>I am a computer science student who is passionate about all things artificial intelligence. Ispend most of my time behind the screen, learning new coding and programming techniques.</p>
+                <p>I enjoy swimming, as it helps me keep fit. i'm also a huge advocate for sustainable lifestyles. After all, there's no planet-B</p>
+            </div>
+            <img src="photo 2.jpg" alt="" class="pers_img">
+        </section>
+        </section>
+        <!--my work-->
+        <section class="my_work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p  class="section__subtitle"></p>
+            <div class="portfolio">
+                <a href="portfolio_item.html" class="portfolio_item">
+                    <img src="photo 6.jpg" alt="" class="portfolio_image">
+                </a>
+                <a href="portfolio_item.html" class="portfolio_item">
+                    <img src="photo 5.jpg" alt="" class="portfolio_image">
+                </a>
+                <a href="portfolio_item.html" class="portfolio_item">
+                    <img src="photo4.jpg" alt="" class="portfolio_image">
+                </a>
+            </div>
+
+        </section>
+        <footer>
+
+              <section class="my_socials" id="contact"> 
+                <div class="div_social">
+                <ul class="social">
+                <li class="social_item"> <a href="mailto:stephanienelima@gmail.com"><i class="fa-solid fa-envelopes-bulk"></i>Email</a></li>
+               
+                <li class="social_item"><a href="www.instagram.com/nelima_stephanie/"><i class="fa-brands fa-instagram-square"></i>Instagram</a></li>
+                <li class="social_item"><a href="https://www.linkedin.com/uas/login"><i class="fa-brands fa-linkedin"></i>Linked-In</a></li>
+                <li class="social_item"><a href="https://github.com/Stenewa"><i class="fa-brands fa-github"></i>
+                Githhub</a></li>
+            </ul>
+        </div>
+                 
+             </section>
+            
+        </footer>
+        <script src="portfolio.js"></script>
+
+    </body>
+</html>
